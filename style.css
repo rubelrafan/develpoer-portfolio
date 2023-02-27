@@ -4,6 +4,10 @@ body {
 }
 
 h1 {
+    font-weight: 50px;
+}
+
+h2 {
     font-weight: 40px;
 }
 
@@ -43,4 +47,27 @@ h1 {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+.experience-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-left: 5%;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 40px gray;
+}
+
+#right-side-for-border {
+    border-left: 7px solid blue;
+}
+
+#left-side-for-border {
+    border-left: 7px solid tomato;
 }
